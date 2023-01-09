@@ -3,8 +3,8 @@
 :root {
     --side-bar-bg-color: #fff;
     --control-text-color: #777;
-    --font-sans-serif: 'Ubuntu', 'Source Sans Pro', sans-serif !important;
-    --font-monospace: 'Fira Code', 'Roboto Mono', monospace !important;
+    --font-sans-serif: 'Maple Mono', 'Ubuntu', 'Source Sans Pro', sans-serif !important;
+    --font-monospace: 'Maple Mono', 'Fira Code', 'Roboto Mono', monospace !important;
 }
 
 html {
@@ -15,20 +15,20 @@ body {
     font-family: var(--font-sans-serif);
     color: #34495e;
     -webkit-font-smoothing: antialiased;
-    line-height: 1.6rem;
+    line-height: 1.8rem;
     letter-spacing: 0;
     margin: 0;
     overflow-x: hidden;
 }
 
 #write {
-    max-width: 860px;
+    max-width: 1060px;
     margin: 0 auto;
     padding: 20px 30px 100px;
 }
 
 #write p {
-    line-height: 1.6rem;
+    line-height: 1.8rem;
     word-spacing: .05rem;
 }
 
@@ -482,4 +482,8 @@ footer {
 
 .html-for-mac .context-menu {
     --item-hover-bg-color: #E6F0FE;
+}
+
+.file-node-content {
+    margin-bottom: 4px !important;
 }
